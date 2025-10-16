@@ -4,7 +4,7 @@ public class Paciente {
     private int edad;
     private String documento;
     
-    //Metodo constructorr
+    //Constructor
     public Paciente(String codigo, String nombre, int edad, String documento) {
         this.codigo = codigo;
         this.nombre = nombre;
@@ -12,6 +12,7 @@ public class Paciente {
         this.documento = documento;
     }
 
+    //Getters
     public String getCodigo() { 
     return codigo; }
 
@@ -24,6 +25,7 @@ public class Paciente {
     public String getDocumento() { 
     return documento; }
 
+    //ToString
     @Override
     public String toString() {
     return "Paciente{" + "codigo='" + codigo + '\'' + ", nombre='" + nombre + '\'' +

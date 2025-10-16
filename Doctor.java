@@ -4,6 +4,7 @@ public class Doctor {
     private String especialidad;
     private String horarioAtencion;
 
+    //Constructor
     public Doctor(String codigo, String nombre, String especialidad, String horarioAtencion) {
         this.codigo = codigo;
         this.nombre = nombre;
@@ -11,6 +12,7 @@ public class Doctor {
         this.horarioAtencion = horarioAtencion;
     }
 
+    //Getters
     public String getCodigo() {
     return codigo; }
 
@@ -23,6 +25,7 @@ public class Doctor {
     public String getHorarioAtencion() {
     return horarioAtencion; }
 
+    //ToString
     @Override
     public String toString() {
     return "Doctor{" + "codigo='" + codigo + '\'' + ", nombre='" + nombre + '\'' +
