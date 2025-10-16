@@ -27,5 +27,5 @@ public class Doctor {
     public String toString() {
     return "Doctor{" + "codigo='" + codigo + '\'' + ", nombre='" + nombre + '\'' +
     ",especialidad='" + especialidad + '\'' + ", horario='" + horarioAtencion + '\'' + '}';
-    }
+}
 }

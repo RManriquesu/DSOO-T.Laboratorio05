@@ -28,6 +28,6 @@ public class Paciente {
     public String toString() {
     return "Paciente{" + "codigo='" + codigo + '\'' + ", nombre='" + nombre + '\'' +
     ",edad=" + edad + ", documento='" + documento + '\'' + '}';
-    }
+}
 }
 
